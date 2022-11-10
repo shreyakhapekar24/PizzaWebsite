@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZERIA EXPRESS</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>P</span>izzeria</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#order">order</a>
+            <a href="#categories">categories</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="find food here..."></input>
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <!-- header section ends  -->
+
+    <!-- login-form container  -->
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter your e-mail">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" class="btn" value="login now">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="a">click here</a></p>
+            <p>dont't have an account? <a href="a">register here</a></p>
+        </form>
+    </div>
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>welcome to pizzeria express</h3>
+            <p>discover the best pizzas in nagpur</p>
+            <a href="#" class="btn">choose, order and have</a>
+        </div>
+
+        <div class="controls">
+            <span class="img-btn active" src="images/pizza_1.jpg"></span>
+            <span class="img-btn" src="images/pizza_3.jpg"></span>
+            <span class="img-btn" src="images/pizza_2.png"></span>
+            <span class="img-btn" src="images/pizza_4.jpg"></span>
+        </div>
+
+        <div class="img-container">
+            <img width="80px" height="70px" src="images/pizza_1.jpg" id="img-slider">
+        </div>
+    </section>
+    <!-- home section ends  -->
+
+    <!-- order section starts -->
+    <section class="order" id="order">
+        <h1 class="heading">
+            <span>o</span>
+            <span>r</span>
+            <span>d</span>
+            <span>e</span>
+            <span>r</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/US.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>Name</h3>
+                    <input type="text" placeholder="Enter the name of pizza">
+                </div>
+
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="Enter your address">
+                </div>
+
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of pizzas">
+                </div>
+
+                <div class="inputBox">
+                    <h3>size</h3>
+                    <select name="" id="size">
+                        <option value="">Regular</option>
+                        <option value="">Medium</option>
+                        <option value="">Large</option>
+                    </select>
+                </div>
+
+                <div class="inputBox">
+                    <h3>price</h3>
+                    <select name="" id="price">
+                        <option value="">250.00 and above</option>
+                        <option value="">below 300.00</option>
+                        <option value="">450.00 and above</option>
+                        <option value="">500.00 and above</option>
+                    </select>
+                </div>
+
+                <input type="submit" class="btn" value="order now">
+            </form>
+        </div>
+    </section>
+    <!-- order section ends  -->
+
+    <!-- categories section starts  -->
+    <section class="categories" id="categories">
+        <h1 class="heading">
+            <span>c</span>
+            <span>a</span>
+            <span>t</span>
+            <span>e</span>
+            <span>g</span>
+            <span>o</span>
+            <span>r</span>
+            <span>i</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/m.jpg" alt="">
+
+                <div class="content">
+                    <h3><i class="fas fa-pizza-slice"></i>margherita pizza</h3>
+                    <p>A delight for veggie lovers! Choose from our wide range of margherita delicious pizzas, it is
+                        softer and tastier :)</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+
+                    <div class="price">200.00<span>250.00</span></div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pbc.jpg" alt="">
+
+                <div class="content">
+                    <h3><i class="fas fa-pizza-slice"></i>pepper barbeque chicken pizza</h3>
+                    <p>A delight for veggie lovers! Choose from our wide range of pepper barbeque chicken
+                        pizzas, it is softer and tastier :)</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+
+                    <div class="price">499.00<span>550.00</span></div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/mgw.jpg" alt="">
+
+                <div class="content">
+                    <h3><i class="fas fa-pizza-slice"></i>mexican green wave pizza</h3>
+                    <p>A delight for veggie lovers! Choose from our wide range of mexican green wave delicious pizzas,
+                        it is softer and tastier :)</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+
+                    <div class="price">299.00<span>399.00</span></div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/ppcc.jpg" alt="">
+
+                <div class="content">
+                    <h3><i class="fas fa-pizza-slice"></i>peri peri cottage cheese pizza</h3>
+                    <p>A delight for veggie lovers! Choose from our wide range of peri peri cottage cheese
+                        pizzas, it is softer and tastier :)</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+
+                    <div class="price">499.00<span>550.00</span></div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/vp.jpg" alt="">
+
+                <div class="content">
+                    <h3><i class="fas fa-pizza-slice"></i>veg pizza</h3>
+                    <p>A delight for veggie lovers! Choose from our wide range of delicious veg pizzas, it is softer and
+                        tastier :)</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+
+                    <div class="price">250.00<span>300.00</span></div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/c.jpg" alt="">
+
+                <div class="content">
+                    <h3><i class="fas fa-pizza-slice"></i>chicken pizza</h3>
+                    <p>A delight for veggie lovers! Choose from our wide range of delicious chicken pizzas, it is softer
+                        and tastier :)</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+
+                    <div class="price">350.00<span>400.00</span></div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- categories section ends  -->
+
+    <!-- services section starts  -->
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-calendar-check"></i>
+                <h3>deal of the day</h3>
+                <p>WOW Deal of the Day: Pizzeria Express offers 2 personal pan pizzas starting from Rs 199 each</p>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-truck"></i>
+                <h3>fastest delivery</h3>
+                <p>the best food delivery app. Pizzeria Express has to be on the list when we mention the food delivery
+                    apps...</p>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-shopping-bag"></i>
+                <h3>takeaway</h3>
+                <p>It is unlikely that a food lover's phone won't have the Pizzeria Express online food delivery app</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>dine-in</h3>
+                <p>Dine-in Worry Free With Contactless Dining at Pizzeria's ... As we embrace the new normal, we welcome
+                    you with a reinvented contactless dining</p>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-map-marker"></i>
+                <h3>track your order</h3>
+                <p>Enter Pizzeria Order Tracking number to Check your Food Parcel, Shipment, Courier, Package status and
+                    Get Estimated delivery time details online.</p>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-gift"></i>
+                <h3>apply coupon</h3>
+                <p>27 Pizzeria Express Promo Codes & Coupon Codes for October 2022 ; 50% Off· Pizzeria Express Coupon
+                    Code: Flat 50% Discount Upto Rs.100 + Save Rs.30 Using Paytm. WELCOME50. </p>
+            </div>
+        </div>
+    </section>
+    <!-- services section ends  -->
+
+    <!-- gallery section starts -->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/co1.jpeg" alt="">
+                <div class="content">
+                    <h3>scrumptious pizzaaa</h3>
+                    <p>pizza is a way of life. keep your friends close, and your pizza closer.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/co4.jpg" alt="">
+                <div class="content">
+                    <h3>scrumptious pizzaaa</h3>
+                    <p>pizza is a way of life. keep your friends close, and your pizza closer.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/co2.jpg" alt="">
+                <div class="content">
+                    <h3>scrumptious pizzaaa</h3>
+                    <p>pizza is a way of life. keep your friends close, and your pizza closer.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/co6.jpg" alt="">
+                <div class="content">
+                    <h3>scrumptious pizzaaa</h3>
+                    <p>pizza is a way of life. keep your friends close, and your pizza closer.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/co8.jpg" alt="">
+                <div class="content">
+                    <h3>scrumptious pizzaaa</h3>
+                    <p>pizza is a way of life. keep your friends close, and your pizza closer.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/co7.jpg" alt="">
+                <div class="content">
+                    <h3>scrumptious pizzaaa</h3>
+                    <p>pizza is a way of life. keep your friends close, and your pizza closer.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/co5.jpg" alt="">
+                <div class="content">
+                    <h3>scrumptious pizzaaa</h3>
+                    <p>pizza is a way of life. keep your friends close, and your pizza closer.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/co9.jpg" alt="">
+                <div class="content">
+                    <h3>scrumptious pizzaaa</h3>
+                    <p>pizza is a way of life. keep your friends close, and your pizza closer.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/co3.jpg" alt="">
+                <div class="content">
+                    <h3>scrumptious pizzaaa</h3>
+                    <p>pizza is a way of life. keep your friends close, and your pizza closer.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery section ends  -->
+
+    <!-- review section starts  -->
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/r1.jpg" alt="">
+                        <h3>angelina gomez</h3>
+                        <p>Best application when you are hungry and want to have something delicious. At comfort of your
+                            zone. The best part which I liked most about Pizzeria Express is that u simply stay anywhere
+                            and your food from your favorite restaurant is just a click away.</p>
+
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/r3.jpg" alt="">
+                        <h3>john doey</h3>
+                        <p>Best application when you are hungry and want to have something delicious. At comfort of your
+                            zone. The best part which I liked most about Pizzeria Express is that u simply stay anywhere
+                            and your food from your favorite restaurant is just a click away.</p>
+
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/r2.jpg" alt="">
+                        <h3>priyanka roy</h3>
+                        <p>Pizzeria Express has a vast network, means it has its delivery service not only in urban
+                            areas but also in remote areas, almost every location you can access its services.pizza is a way of life. keep your friends close, and your pizza closer.
+                        </p>
+
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/r4.jpg" alt="">
+                        <h3>rehana shetty</h3>
+                        <p>The ambiance is totally mesmerizing and spacious. If we talk about hospitality, it is good.
+                            The specialty of this branch is they have variety in menu and the Taste is superb. I never
+                            face any delay in delivery. At comfort of your zone.
+                        </p>
+
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section ends  -->
+
+    <!-- contact section starts  -->
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/contact.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Enter your name">
+                    <input type="email" placeholder="Enter your email-id">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="Enter your number">
+                    <input type="text" placeholder="subject">
+                </div>
+
+                <textarea placeholder="Enter your query" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+    </section>
+    <!-- contact section starts  -->
+
+    <!-- footer section starts  -->
+    <section class="footer" id="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>the pizza restaurant was founded in INDIA by MS. SHREYA KHAPEKAR. Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Aliquam, ab!</p>
+            </div>
+
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">japan</a>
+                <a href="#">USA</a>
+                <a href="#">korea</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="#order">order</a>
+                <a href="#categories">categories</a>
+                <a href="#services">services</a>
+                <a href="#gallery">gallery</a>
+                <a href="#review">review</a>
+                <a href="#contact">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/shreya.khapekar.33">facebook</a>
+                <a href="https://www.instagram.com/shreya_khapekar/">instagram</a>
+                <a href="https://www.quora.com/profile/Shreya-Khapekar-4">quora</a>
+                <a href="https://in.linkedin.com/in/shreya-khapekar-84a10b203">linkedin</a>
+            </div>
+        </div>
+
+        <h1 class="credit"> created by <span> ms. shreya khapekar</span> | all rights reserved! </h1>
+    </section>
+    <!-- footer section ends  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custom js link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
